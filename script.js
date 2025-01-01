@@ -7,7 +7,15 @@ buttons.forEach(button => {
         window.open(whatsappURL, '_blank');
     });
 });
-
+const button = document.querySelectorAll('.btn2');
+button.forEach(button => {
+    button.addEventListener('click', function() {
+        const phoneNumber = "5511984672641";
+        const message = "Gostaria de agendar uma consultoria!";
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappURL, '_blank');
+    });
+});
 const WhatsApp = document.querySelectorAll('.WhatsApp');
 WhatsApp.forEach(WhatsApp => {
     WhatsApp.addEventListener('click', function() {
@@ -51,3 +59,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
   
+

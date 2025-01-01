@@ -1,0 +1,95 @@
+@media(max-width:920px){
+    
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        z-index: 20;
+        margin-left: 0;
+        margin-top: 8rem;
+        margin-left: 45%;
+    }
+    .apresentation h1{
+        font-size: 2.5rem;
+    }
+    .text{
+        font-size: 1rem;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+    .Introducion{
+        margin-top: 10rem;
+    }
+    .Explanation1{
+        flex-wrap: wrap;
+    }
+    .img1{
+        width: 20rem;
+    }
+    .img2{
+        width: 20rem;
+    }
+    .img3{
+        width: 20rem;
+    }
+    .T1{
+        font-size: 1.2rem;
+        width: 24ch;
+    }
+    .T2{
+        font-size: 1.2rem;
+        width: 24ch;
+    }
+    .P1{
+        font-size: 1rem;
+        width:28ch;
+    }
+    .content{
+        margin-left: 2rem;
+    }
+    .span{
+        font-size: 1.9rem;
+    }
+    .problems-card{
+        flex-direction: column;
+        text-align: center;
+        max-width:20rem;
+        width: 100%;
+    }
+    .img-problem{
+        width: 10rem;
+        margin-right: 0;
+    }
+    .benefits-card{
+        flex-direction: column;
+        text-align: center;
+        max-width:20rem;
+        width: 100%;
+    }
+    .problems{
+        flex-wrap: wrap;
+    }
+    .title-cards{
+        font-size: 1.2rem;
+    }
+    .text-cards{
+        text-align: center;
+        margin: auto;
+        font-size: 1rem;
+    }
+    .ability{
+        font-size: 2rem;
+    }
+    .about-me{
+        width: 100%;
+        max-width: 45rem;
+    }
+    .foto{
+        width: 18rem;
+        height: max-content;
+    }
+    .description{
+        font-size: 1rem;
+    }
+}
