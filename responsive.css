@@ -1,163 +1,271 @@
-@media(max-width:920px){
-    html, body{
+@media(max-width:920px) {
+
+    html,
+    body {
         overflow-x: hidden;
     }
+
     .text-container {
-        display: flex;
         flex-direction: column;
         margin-left: 0;
-        margin-top: 4rem ;
+        margin-top: 4rem;
         margin-left: 40vw;
     }
-    .apresentation h1{
+
+    .apresentation h1 {
         font-size: 2rem;
     }
-    .text{
+
+    .text {
         font-size: 1rem;
     }
-    .btn{
+
+    .btn {
         font-size: 1rem;
         padding: 0.6rem;
     }
-    .Introducion{
+
+    .Introducion {
         margin-top: 10rem;
     }
-    .Explanation1{
+
+    .Explanation1 {
         flex-wrap: wrap;
     }
-    .img1{
+
+    .img1 {
         max-width: 20rem;
     }
-    .img2{
+
+    .img2 {
         max-width: 20rem;
     }
-    .img3{
+
+    .img3 {
         max-width: 20rem;
     }
-    .T1{
+
+    .T1 {
         font-size: 1.2rem;
         width: 24ch;
     }
-    .T2{
+
+    .T2 {
         font-size: 1.2rem;
         width: 24ch;
     }
-    .P1{
+
+    .P1 {
         font-size: 1rem;
-        width:28ch;
+        width: 28ch;
     }
-    .content{
+
+    .content {
         margin-left: 2rem;
     }
-    .span{
+
+    .span {
         font-size: 1.9rem;
     }
-    .problems-card{
+
+    .problems-card {
         flex-direction: column;
         text-align: center;
-        max-width:20rem;
+        max-width: 20rem;
         width: 100%;
     }
-    .img-problem{
+
+    .img-problem {
         width: 10rem;
         margin-right: 0;
     }
-    .benefits-card{
+
+    .benefits-card {
         flex-direction: column;
         text-align: center;
-        max-width:20rem;
+        max-width: 20rem;
         width: 100%;
     }
-    .problems{
+
+    .problems {
         flex-wrap: wrap;
-        padding: 2rem;
+        padding: 1rem;
     }
-    .title-cards{
+
+    .title-cards {
         font-size: 1.2rem;
     }
-    .text-cards{
+
+    .text-cards {
         text-align: center;
-        margin: auto;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
-    .ability{
+
+    .ability {
         font-size: 2rem;
     }
-    .about-me{
+
+    .about-me {
         align-items: center;
-        text-align:center;
+        text-align: center;
     }
-    .foto{
+
+    .foto {
         width: 18rem;
         height: max-content;
     }
-    .description{
+
+    .description {
         font-size: 0.9rem;
         width: 30ch;
     }
-    .organizar-texto{
+
+    .organizar-texto {
         margin: 0;
     }
 }
-@media(max-width:750px){
-    .Illustration{
+
+@media(max-width:750px) {
+    .Illustration {
         width: 140%;
 
     }
-    .content{
+
+    .content {
         margin-left: 0;
+        text-align: center;
     }
-    .btn{
-        margin: auto;
+
+    .btn {
         margin-top: 1.5rem;
+        margin: auto;
     }
-    .text-container{
-        margin-left: 35vw;
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: 2rem;
+        margin-top: 10em;
+        max-width: 600px;
+        z-index: 20;
+        word-break: break-word;
+        white-space: normal;
     }
-    .apresentation h1{
+
+    .apresentation h1 {
         font-size: 1.6rem;
         margin-bottom: 2.5rem;
     }
-    .Introducion{
-        padding: 4rem;
+
+    .Introducion {
+        padding-top: 2rem;
         max-width: 90vw;
-        margin-top:6rem;
+        margin-top: 1rem;
     }
-    .img-toggle{
+
+    .img-toggle {
         display: block;
         max-width: 20rem;
     }
-    .img1{
+
+    .img1 {
         display: none;
+        max-width: 17rem;
     }
-    .Explanation1{
+
+    .img-toggle {
+        max-width: 17rem;
+    }
+
+    .img2 {
+        max-width: 17rem;
+    }
+
+    .img3 {
+        max-width: 17rem;
+    }
+
+    .Explanation1 {
         max-width: 85vw;
         padding: 1rem;
         margin: 4rem;
         text-align: center;
     }
-    .T1,.T2, .P1{
-        margin: auto ;
+
+    .T1,
+    .T2,
+    .P1 {
+        margin: auto;
     }
-    .P1, .text{
+
+    .P1,
+    .text {
         font-size: 0.9em;
+        width: 30ch;
     }
-    .about-me{
+
+    .about-me {
         max-width: 90vw;
         flex-direction: column;
     }
-    .foto{
+
+    .foto {
         max-width: 16rem;
     }
-    .testimonial{
+
+    .testimonial {
         max-width: 18rem;
     }
-    .testimonials{
+
+    .testimonials {
         padding: 1rem;
     }
 }
-@media(max-width:400px){
-    .Illustration{
 
+@media(max-width:650px) {
+    .Illustration {
+        width: 180%;
     }
+
+    .text-container {
+        margin-top: 18em;
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width:400px) {
+    .Illustration {
+        width: 220%;
+    }
+
+    .text-container {
+        margin-left: 1em;
+    }
+
+    .Introducion {
+        margin-top: 0;
+    }
+
+    .ability {
+        margin-top: 1rem;
+        padding: 0;
+        font-size: 1.5rem;
+    }
+
+    .apresentation {
+        margin-top: -1rem;
+    }
+
+    .card-container {
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:320px) {
+    .Illustration {
+        width: 260%;
+    }
+
 }
